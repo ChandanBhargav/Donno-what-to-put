@@ -12,9 +12,6 @@ spec:
       labels:
         run: node-application
     spec:
-      containers:
-      - name: node-application
-        image: registry.cloud.okteto.net/anaisurlichs/hello-world:node
         ports:
           - containerPort: 8080
-        imagePullPolicy: Always
+        
