@@ -1,5 +1,5 @@
 build:
-  api:
+  api: v1
     context: api
   frontend:
     context: frontend
